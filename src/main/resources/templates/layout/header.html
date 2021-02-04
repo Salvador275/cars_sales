@@ -1,0 +1,44 @@
+<div th:fragment="header" class="header-block">
+    <div class="assets-block">
+        <link rel="stylesheet" th:href="@{/fonts/stylesheet.css}">
+        <link rel="stylesheet" th:href="@{/css/style.css}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container container-fluid">
+            <a class="navbar-brand" href="/">
+                <div class="logo">
+                    <img th:src="@{/img/logo.png}" alt="">
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/ads">Объявления</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/novelty">Новинки автопрома</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/videos">Видео</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/journal">Журнал</a>
+                    </li>
+                </ul>
+                <ul class="sign-block">
+                    <li>
+                        <a href="/login" class="nav-link">Вход</a>
+                    </li>
+                    <li style="padding: 10px 0;">|</li>
+                    <li>
+                        <a href="/registration" class="nav-link">Регистрация</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>

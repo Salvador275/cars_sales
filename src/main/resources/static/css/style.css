@@ -1,0 +1,56 @@
+/* header */
+.nav-link,
+#navbarNav .sign-block>li{
+    color: #4dc65f;
+    font-size: 22px;
+    font-family: "Museo Sans Cyrl 300"
+}
+
+.nav-link:hover{
+    color:#dedede;
+}
+
+.header-block .navbar {
+    background-color: #3f3f3f;
+}
+
+.logo img {
+    width: 140px;
+    border-radius: 25px;
+}
+
+#navbarNav .sign-block{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+#navbarNav .sign-block>li{
+    margin: 0 5px;
+}
+
+/* header */
+.title{
+    color:black;
+    text-align:center;
+    margin: 30px auto;
+}
+
+.form-block{
+    width: 600px;
+    margin: 10px auto;
+}
+
+/* footer */
+footer{
+    margin: 50px 0 0;
+}
+
+.footer-block{
+    text-align: center;
+    background-color: #3f3f3f;
+    color: #4dc65f;
+    font-size: 16px;
+    height: 150px;
+}
+/* footer */
